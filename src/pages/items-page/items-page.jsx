@@ -94,7 +94,7 @@ class ItemsPage extends React.Component {
   };
 
   componentDidMount() {
-    fetch("/api/items")
+    fetch("http://143.244.168.179/api/items")
       .then((res) => res.json())
       .then((items) =>
         this.setState({ items: items, user: this.props.currentUser.user })
