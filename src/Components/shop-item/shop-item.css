@@ -1,0 +1,35 @@
+.hello img {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: centre;
+}
+
+.hello {
+  text-align: center;
+}
+
+.hello:hover {
+  transform: scale(1.05);
+}
+
+.hello .card {
+  height: 300px;
+  width: 300px;
+}
+
+.hello .title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.hello .buttonCart {
+  margin-top: -10px;
+  color: black;
+  background-color: green;
+  margin-left: 60px;
+}
+
+.hello .buttonGrid .user-buttons .moreInfo {
+  margin-top: 13px;
+}

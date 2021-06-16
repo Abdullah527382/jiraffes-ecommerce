@@ -1,0 +1,18 @@
+.modal-div input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 0px 90px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.modal-div form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-div h4 {
+  text-align: center;
+}

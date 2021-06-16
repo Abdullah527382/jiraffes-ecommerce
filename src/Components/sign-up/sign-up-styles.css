@@ -1,0 +1,48 @@
+.signup {
+  border-style: outset;
+  padding: 60px 0;
+  background-color: transparent;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* signup button {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 350px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-top: 40px;
+} */
+
+.signup h2 {
+  text-align: center;
+}
+
+.signup form {
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: right;
+  text-align: left;
+}
+
+.signup input[type="email"],
+.signup input[type="password"],
+.signup input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 0px 150px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.signup h4 {
+  margin-left: 150px;
+}

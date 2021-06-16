@@ -1,0 +1,35 @@
+.signin {
+  border-style: outset;
+  padding: 60px 0;
+}
+
+.signin h4 {
+  margin-left: 150px;
+}
+
+.signin form {
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.signin h2 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signin button:hover {
+  opacity: 0.8;
+}
+
+.signin input[type="email"],
+.signin input[type="password"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 0px 150px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
